@@ -13,6 +13,11 @@ int main()
    cout << x << " to the power of " << y << " = " << power(x,y) << endl;
 }
 
+
+/*function 
+ *takes base, and exponent as a parameters
+ *returns base^exponent
+*/ 
 int power (int base, int expo)
 {
    if (expo < 1)
