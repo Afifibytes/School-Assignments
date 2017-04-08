@@ -4,10 +4,10 @@ using namespace std;
 
 int main()
 {
-   int x,y;
-   cin >> x >> y;
-   cout << fadd(x,y) << endl;
-   cout << fsub(x,y) << endl;
-   cout << fmul(x,y) << endl;
-   cout << fdiv(x,y) << endl;
+   int firstInput,secondInput; 
+   cin >> firstInput >> secondInput;
+   cout << fadd(firstInput,secondInput) << endl;
+   cout << fsub(firstInput,secondInput) << endl;
+   cout << fmul(firstInput,secondInput) << endl;
+   cout << fdiv(firstInput,secondInput) << endl;
 }
